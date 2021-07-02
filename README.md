@@ -1,5 +1,5 @@
 # Algorithm
-many kind of algorithm which I studied
+any kind of algorithm which I studied
 
 
 # use
