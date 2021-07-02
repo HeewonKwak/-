@@ -21,3 +21,6 @@ Python 3.9.1
 |n<sup>2|Quadratic|
 |n<sup>3|Cubic|
 |2<sup>n|Exponential|
+
+## 성능 비교
+-성능 순서 : O(1)<O(logn)<O(n)<O(nlogn)<O(n<sup>2)<O(n<sup>3)<O(2<sup>n)
