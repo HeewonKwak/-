@@ -12,8 +12,12 @@ Python 3.9.1
 # 시간 복잡도
 
 ## 빅(O) 표기법
-|제목|내용|설명|
-|------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|**Big-O**|**Name**|
+|------|---|
+|1|Constant|
+|log n|Logarithmic|
+|n|Linear|
+|n log n|Log Linear|
+|n^2^|Quadratic|
+|n^3^|Cubic|
+|2^n^|Exponential|
