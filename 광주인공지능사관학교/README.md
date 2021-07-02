@@ -18,6 +18,6 @@ Python 3.9.1
 |log n|Logarithmic|
 |n|Linear|
 |n log n|Log Linear|
-|n^2|Quadratic|
-|n^3|Cubic|
+|n<sup>2<sup>|Quadratic|
+|n<sup>3|Cubic|
 |2^n|Exponential|
