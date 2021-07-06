@@ -24,3 +24,6 @@ Python 3.9.1
 
 ## 성능 비교
 -성능 순서 : O(1)<O(logn)<O(n)<O(nlogn)<O(n<sup>2</sup>)<O(n<sup>3</sup>)<O(2<sup>n</sup>)
+
+## 그래프
+![1](https://user-images.githubusercontent.com/81952911/124532081-c5a80080-de4a-11eb-8c1e-7024373762cd.PNG)
