@@ -1,18 +1,18 @@
 # STACK
  스택을 알고리즘을 만들기
 
->- 1Step
+>Step - 1
 >
 > 일단 만들기!
 
->- 2Step
+>Step - 2
 >
 > len() 안 쓰고 만들기!
 
->- 3Step
+>Step - 3
 >
 > append와 pop 안 쓰고 만들기!
 
->- 4Step
+>Step - 4
 >
 > 클래스로 만들기!
