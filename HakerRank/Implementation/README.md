@@ -8,8 +8,8 @@ This part is implementation of HackerRank
 
 # My blog link
 [Drawing Book](https://woniblog.tistory.com/55)
-[Climbing the Leaderboard](https://woniblog.tistory.com/57)
-[Matrix Layer Rotation](https://woniblog.tistory.com/56)
+[Climbing the Leaderboard](https://woniblog.tistory.com/58)
+[Matrix Layer Rotation](https://woniblog.tistory.com/57)
 
 # use
 python version
