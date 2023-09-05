@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/43162
+
 def dfs(now, visited, nodes):
     visited[now] = True
     for i in range(len(nodes[now])):
