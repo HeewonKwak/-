@@ -15,11 +15,9 @@ WITH numbers AS
 SELECT
 GROUP_CONCAT(number SEPARATOR '&')
 FROM numbers
-WHERE number <= 1000 AND number > 1
-AND NOT EXISTS (
+WHERE NOT EXISTS (
     SELECT *
     FROM numbers AS n
-    WHERE n.number <= 1000 AND n.number > 1
-    AND MOD(numbers.number, n.number) = 0
+    WHERE MOD(numbers.number, n.number) = 0
     AND numbers.number != n.number
 );
