@@ -32,3 +32,25 @@ def solution(N, number):
 
 
 print(solution(5, 12))
+
+# 복습
+def solution(N, number):
+    dp = [set()] * 9
+    for i in range(1, 9):
+        dp[i] = set([N * int('1'*i), -N * int('1'*i)])
+        for j in range(1,i):
+            dp[i] = dp[i].union(calculator(dp[j], dp[i-j]))
+        if number in dp[i]:
+            return i
+    return -1
+
+def calculator(dp1, dp2):
+    new = set()
+    for a in dp1:
+        for b in dp2:
+            new.add(a+b)
+            new.add(a-b)
+            new.add(a*b)
+            if b != 0:
+                new.add(a//b)
+    return new

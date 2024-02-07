@@ -11,3 +11,20 @@ def solution(x, y, n):
     if dp[y] == float('INF'):
         return -1
     return dp[y]
+
+# 복습
+def solution(x, y, n):
+    dp = [set()]
+    dp[0].add(x)
+    i = 0
+    while 1:
+        dp.append(set())
+        if y in dp[i]:
+            return i
+        for a in dp[i]:
+            dp[i+1].add(a + n)
+            dp[i+1].add(a * 2)
+            dp[i+1].add(a * 3)
+        if min(dp[i+1]) > y:
+            return -1
+        i += 1
